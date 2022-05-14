@@ -1,13 +1,7 @@
-.container {
-    max-width: 1120px;
-    margin: 0 auto;
-    padding: 0 2rem;
-    height: calc(100vh - 5rem);
-}
 
 .posts {
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 2rem auto 0;
 
    a {
        display: block;
@@ -18,15 +12,15 @@
        }
 
         h1 {
-        font-size: 2.125rem;
+        font-size: 3rem;
         font-weight: bold;
         }
+    }
 
-        h2 {
+    h2 {
         font-size: 1.125rem;
         font-weight: 400;
         margin-top: 0.5rem;
-        }
     }
 }
 
@@ -37,13 +31,13 @@
 
     time {
         font-size: 0.875rem;
-        
+        margin: 0 1.5rem 0 0.5rem;
     }
 
-    h3 {
+    p {
         font-size: 0.875rem;
         font-weight: 400;
-        margin-left: 1.5rem;
+        margin-left: 0.5rem;
     }
 }
 
@@ -51,9 +45,12 @@
     max-width: 1200px;
     padding-top: 2rem;
     
-    strong {
+    button {
         font-size: 1.125rem;
         font-weight: 600;
         color: var(--rose-300);
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
     }
 }
